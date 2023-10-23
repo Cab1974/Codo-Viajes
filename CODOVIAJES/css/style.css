@@ -80,7 +80,7 @@
 }
 
 #h1_index > h1{
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
   color: var(--color-1);
   background-color: var(--color-4);
@@ -99,6 +99,9 @@
 }
 
 /*ABOUTUS*/
+#article_aboutus{
+  box-sizing: border-box;
+}
 
 #aboutus_h2_container {
   width: 50%;
@@ -111,7 +114,7 @@
 }
 
 #aboutus_h2_container > h2{
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   color: var(--color-4);
   background-color: var(--color-3-5);
@@ -134,12 +137,15 @@
 
 #aboutus_p_container > p{
   color: var(--color-4);
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   
 }
 
 /*FIN ABOUTUS*/
 /*DISNEY INDEX*/
+#article_disney{
+  box-sizing: border-box;
+}
 
 #disney_h2_container {
   width: 50%;
@@ -151,7 +157,7 @@
   align-items: center;
 }
 #disney_h2_container > h2{
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   color: var(--color-4);
   background-color: var(--color-3-5);
@@ -173,11 +179,14 @@
 }
 #disney_p_container > p{
   color: var(--color-4);
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 /*FIN DISNEY INDEX*/
 /*EUROPA INDEX*/
+#article_europa{
+  box-sizing: border-box;
+}
 
 #europa_h2_container {
   width: 50%;
@@ -189,7 +198,7 @@
   align-items: center;
 }
 #europa_h2_container > h2{
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   color: var(--color-4);
   background-color: var(--color-3-5);
@@ -211,7 +220,7 @@
 }
 #europa_p_container > p{
   color: var(--color-4);
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 /*FIN EUROPA INDEX*/
@@ -282,6 +291,14 @@ textarea {
 }
 
 /* botón de enviar */
+
+#btn_form_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.7rem;
+}
+
 .form_boton_enviar {
   display: inline-block;
   background-color: var(--color-4);
@@ -319,9 +336,9 @@ footer{
     width: 100vw;
   }
 
-  .navbar{
+  /* .navbar{
     font-size: 1.5rem;
-  }
+  } */
 
   /* --- TITULO PRINCIPAL --- */
   #h1_index{
@@ -334,7 +351,6 @@ footer{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-size: 2rem;
 }
 
 #h1_index > h1{
@@ -343,6 +359,7 @@ footer{
   background-color: var(--color-4);
   width: 100vw;
   height: fit-content;
+  font-size: 2rem;
 }
 
 /* --- ARTICULOS INDEX --- */
@@ -353,6 +370,7 @@ footer{
   width: 100vw;
   height: fit-content;
   margin-top: .7rem;
+  height: 70vh;
 }
 
 /*ABOUTUS*/
@@ -360,20 +378,20 @@ footer{
 
 #aboutus_h2_container {
   width: 100%;
-  height: 24vh;
+  height: 34vh;
 }
 
 #aboutus_h2_container > h2{
-  font-size: 4rem;
+  font-size: 3rem;
 }
 #aboutus_p_container {
   width: 100%;
-  height: 24vh;
+  height: 34vh;
 }
 
 #aboutus_p_container > p{
   color: var(--color-4);
-  font-size: 1.9rem;
+  font-size: 1.1rem;
   
 }
 
@@ -384,40 +402,40 @@ footer{
 
 #disney_h2_container {
   width: 100%;
-  height: 24vh;
+  height: 34vh;
 }
 
 #disney_h2_container > h2{
-  font-size: 4rem;
+  font-size: 3rem;
 }
 #disney_p_container {
   width: 100%;
-  height: 24vh;
+  height: 34vh;
 }
 
 #disney_p_container > p{
   color: var(--color-4);
-  font-size: 1.9rem;
+  font-size: 1.1rem;
   
 }
 
 /* EUROPA */
 #europa_h2_container {
   width: 100%;
-  height: 24vh;
+  height: 34vh;
 }
 
 #europa_h2_container > h2{
-  font-size: 4rem;
+  font-size: 3rem;
 }
 #europa_p_container {
   width: 100%;
-  height: 24vh;
+  height: 34vh;
 }
 
 #europa_p_container > p{
   color: var(--color-4);
-  font-size: 1.9rem;
+  font-size: 1.1rem;
   
 }
 
@@ -425,7 +443,7 @@ footer{
 
 }
 /* Media query 400px */
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   
   /*--- NAV-BAR ---*/
 
@@ -473,12 +491,30 @@ footer{
 
   /* --- FIN NAV-BAR --- */
 
+  #h1_index > h1{
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color-1);
+    background-color: var(--color-4);
+    width: 100vw;
+    height: fit-content;
+  }
+  #h1_index{
+    height: 20vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/avion-fondo-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+
   /* --- FORMULARIO --- */
 
   .form_index {
-    max-width: 70vw;
-    margin: 0 auto;
-    padding: .6rem 2rem;
+    max-width: 95vw;
+    margin: 3px auto;
+    padding: 3px;
     background-color: var(--color-1);
     border: 1px solid var(--color-4);
     border-radius: 5px;
