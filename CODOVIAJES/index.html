@@ -40,26 +40,39 @@
       <!-- COMIENZO RESUMEN SOBRE NOSOTROS -->
 
       <article class="article_index" id="article_aboutus">
-        <h2>Sobre nosotros</h2>
-        <p>Somos una empresa de viajes y turismo que brinda un servicio personalizado, adaptandose a tus preferencias y presupuesto. Acompañandote desde la planificación hasta
+        <div id="aboutus_h2_container">
+          <h2>Sobre nosotros</h2>
+        </div>
+        <div id="aboutus_p_container">
+          <p>Somos una empresa de viajes y turismo que brinda un servicio personalizado, adaptandose a tus preferencias y presupuesto. Acompañandote desde la planificación hasta
           el regreso. Haz <a href="../about_us.html">click aquí</a> para conocer más sobre nuestros valores.
-        </p>
+          </p>
+        </div>
       </article>
       <!-- FIN RESUMEN SOBRE NOSOTROS -->
 
       <!-- INICIO RESUMEN PACK DISNEY -->
+      
       <article class="article_index" id="article_disney">
+      <div id="disney_p_container">
         <p>Si tu viaje ideal es recorrer parques de diversiones para disfrutar en familia o revivir tu infancia, este viaje es el indicado. Haz <a href="../pack_disney.html">click aquí</a> para conocer más sobre este pack.
         </p>
+      </div>
+      <div id="disney_h2_container">
         <h2>Viaja a Disney</h2>
+      </div>
       </article>
       <!-- FIN RESUMEN PACK DISNEY -->
 
       <!-- INICIO RESUMEN PACK EUROPA -->
       <article class="article_index" id="article_europa">
-        <h2>Viaja a Europa</h2>
-        <p>Si queres recorrer el viejo contienente y conocer sobre su cultura e historia, este viaje es el indicado. Haz <a href="../pack_europa.html">click aquí</a> para conocer más sobre este pack.
+        <div id="europa_h2_container">
+          <h2>Viaja a Europa</h2>
+        </div>
+        <div id="europa_p_container">
+          <p>Si queres recorrer el viejo contienente y conocer sobre su cultura e historia, este viaje es el indicado. Haz <a href="../pack_europa.html">click aquí</a> para conocer más sobre este pack.
         </p>
+        </div>
       </article>
       <!-- FIN RESUMEN PACK EUROPA -->
     
@@ -80,7 +93,7 @@
           <label for="telefono">Teléfono:</label>
           <input type="tel" id="telefono" name="telefono">
       </fieldset>
-      <br>
+      
 
       <fieldset class="form_destino">
           <legend>Destino</legend>
@@ -91,7 +104,7 @@
               <!-- <option value="destino3">Destino 3</option> -->
           </select>
       </fieldset>
-      <br>
+      
 
       <fieldset class="form_mensaje">
           <legend>Mensaje</legend>
@@ -100,7 +113,7 @@
       </fieldset>
       <br>
 
-      <input type="submit" value="Enviar" class="form_boton_enviar">
+      <div id="btn_form_container"><input type="submit" value="Enviar" class="form_boton_enviar"></div>
   </form>
   </article>
   </main>
