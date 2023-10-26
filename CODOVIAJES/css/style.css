@@ -113,7 +113,21 @@
   align-items: center;
 }
 
+  padding: 20px;
 #aboutus_h2_container > h2{
+  font-size: 3rem;
+  text-align: center;
+  color: var(--color-4);
+  background-color: var(--color-3-5);
+  padding: 1rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+#aboutus_pages_h2_container > h2{
   font-size: 3rem;
   text-align: center;
   color: var(--color-4);
@@ -135,9 +149,24 @@
   align-items: center;
 }
 
+#aboutus_pages_p_container {
+  width: 50%;
+  display: flex;
+  padding: 20px;
+  background: var(--color-2);
+  justify-content: center;
+  align-items: center;
+}
+
 #aboutus_p_container > p{
   color: var(--color-4);
   font-size: 1.5rem;
+  
+}
+
+#aboutus_pages_p_container > p{
+  color: var(--color-4);
+  font-size: 1,5rem;
   
 }
 
