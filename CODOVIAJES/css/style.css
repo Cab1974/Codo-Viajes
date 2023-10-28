@@ -36,7 +36,17 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+    transition: all 0.3s ease 0.1s;
+    -webkit-transition: all 0.3s ease 0.1s;
+    -moz-transition: all 0.3s ease 0.1s;
+    -ms-transition: all 0.3s ease 0.1s;
+    -o-transition: all 0.3s ease 0.1s;
 }
+
+  .codo-logo img:hover{
+    max-width: 110px;
+    background-color: var(--color-3-5);
+  }
   
   .navbar-menu ul {
     display: flex;
@@ -357,6 +367,65 @@ textarea {
   background-color: var(--color-3);
   color: var(--color-4);
 }
+
+.error-message {
+  color: #811010;
+  display: none;
+}
+
+/* RESEÑAS */
+
+.carousel-container {
+  width: 100vw;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  background-color: var(--color-4);
+}
+
+.reseñas_titulo{
+  text-align: center;
+  padding: 10px 0;
+  color: var(--color-1);
+  margin: auto;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out .3s;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  -webkit-transition: transform 0.5s ease-in-out .3s;
+  -moz-transition: transform 0.5s ease-in-out .3s;
+  -ms-transition: transform 0.5s ease-in-out .3s;
+  -o-transition: transform 0.5s ease-in-out .3s;
+}
+
+.comment {
+  width: 320px;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: var(--color-2);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.buttons-container {
+  text-align: center;
+  margin: 0px auto 1rem;
+  background-color: var(--color-4);
+}
+
+button {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: var(--color-1);
+  color: var(--color-4);
+}
+
 
 /* FOOTER */
 
