@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Codo Viajes</title>
+    <title>Codo Viajes | Inicio</title>
     <!-- ESTILOS PERSONALIZADOS -->
     <link rel="icon" href="img/plane-departure-solid.svg">
     <link rel="stylesheet" href="./css/style.css">
@@ -76,7 +76,23 @@
         </div>
       </article>
       <!-- FIN RESUMEN PACK EUROPA -->
-    
+      
+      <!-- RESEÑAS -->
+      <article class="carousel-container">
+        <h2 class="reseñas_titulo"> NUESTROS CLIENTES SATISFECHOS</h2>
+        <div class="carousel-slide">
+            <div class="comment">
+                <p>Comentario</p>
+            </div>
+        </div>
+      </article>
+      <div class="buttons-container">
+        <button id="prevBtn" onclick="changeSlide(-1)">Anterior</button>
+        <button id="nextBtn" onclick="changeSlide(1)">Siguiente</button>
+      </div>
+      <!-- FIN RESEÑAS -->
+
+      <!-- FORMULARIO -->
       <article id="index_form">
         <h2 class="h2_form">Contáctanos y reserva tu paquete</h2>
         <form class="form_index" onsubmit="return validarFormulario()" action="#">
@@ -114,7 +130,9 @@
 
             <div id="btn_form_container"><input type="submit" value="Enviar" class="form_boton_enviar"></div>
         </form>
-    </article>  </main>
+      </article> 
+      <!-- FIN FORMULARIO -->
+   </main>
 
     <script src="js/script.js"></script>
   </body>

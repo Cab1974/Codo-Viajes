@@ -141,3 +141,36 @@ function validarFormulario() {
 
     return !document.querySelectorAll(".error-message:visible").length;
 }
+let slideIndex = 0;
+let commentsData = [];
+
+// Hacer una solicitud para obtener los comentarios desde la API
+fetch('https://jsonplaceholder.typicode.com/comments')
+    .then(response => response.json())
+    .then(data => {
+        commentsData = data;
+        showSlide(slideIndex);
+    })
+    .catch(error => console.error('Error al obtener comentarios:', error));
+
+function changeSlide(n) {
+    slideIndex += n;
+    if (slideIndex < 0) {
+        slideIndex = commentsData.length - 1;
+    } else if (slideIndex >= commentsData.length) {
+        slideIndex = 0;
+    }
+    showSlide(slideIndex);
+}
+
+function showSlide(n) {
+    if (commentsData.length === 0) {
+        return;
+    }
+
+    const comment = commentsData[n];
+    const commentElement = document.querySelector('.comment p');
+    commentElement.textContent = comment.body;
+}
+
+showSlide(slideIndex);
