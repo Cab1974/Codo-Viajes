@@ -373,6 +373,60 @@ textarea {
   display: none;
 }
 
+/* RESEÑAS */
+
+.carousel-container {
+  width: 100vw;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  background-color: var(--color-4);
+}
+
+.reseñas_titulo{
+  text-align: center;
+  padding: 10px 0;
+  color: var(--color-1);
+  margin: auto;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out .3s;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  -webkit-transition: transform 0.5s ease-in-out .3s;
+  -moz-transition: transform 0.5s ease-in-out .3s;
+  -ms-transition: transform 0.5s ease-in-out .3s;
+  -o-transition: transform 0.5s ease-in-out .3s;
+}
+
+.comment {
+  width: 320px;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: var(--color-2);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.buttons-container {
+  text-align: center;
+  margin: 0px auto 1rem;
+  background-color: var(--color-4);
+}
+
+button {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: var(--color-1);
+  color: var(--color-4);
+}
+
+
 /* FOOTER */
 
 footer{
