@@ -56,7 +56,7 @@
       
       <article class="article_index" id="article_disney">
       <div id="disney_p_container">
-        <p>Si tu viaje ideal es recorrer parques de diversiones para disfrutar en familia o revivir tu infancia, este viaje es el indicado. Haz <a id="l" href="pages/pack_disney.html">click aquí</a> para conocer más sobre este pack.
+        <p>Si tu viaje ideal es recorrer parques de diversiones para disfrutar en familia o revivir tu infancia, este viaje es el indicado. Haz <a id="link_index" href="pages/pack_disney.html">click aquí</a> para conocer más sobre este pack.
         </p>
       </div>
       <div id="disney_h2_container">
@@ -77,47 +77,44 @@
       </article>
       <!-- FIN RESUMEN PACK EUROPA -->
     
-    <article id="index_form">
-    <h2 class="h2_form">Contáctanos y reserva tu paquete</h2>
+      <article id="index_form">
+        <h2 class="h2_form">Contáctanos y reserva tu paquete</h2>
+        <form class="form_index" onsubmit="return validarFormulario()" action="#">
+            <fieldset class="form_info_personal">
+                <legend>Información Personal</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <div id="nombre-error" class="error-message">El nombre debe contener al menos 3 caracteres.<br>No puede contener caracteres especiales o números</div>
+                <br>
 
-    <form class="form_index" action=>
-      <fieldset class="form_info_personal">
-          <legend>Información Personal</legend>
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required>
-          <br>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <div id="correo-error" class="error-message">Ingrese un correo electrónico válido.</div>
+                <br>
 
-          <label for="correo">Correo electrónico:</label>
-          <input type="email" id="correo" name="correo" required>
-          <br>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+            </fieldset>
 
-          <label for="telefono">Teléfono:</label>
-          <input type="tel" id="telefono" name="telefono">
-      </fieldset>
-      
+            <fieldset class="form_destino">
+                <legend>Destino</legend>
+                <label for="destino">Selecciona un destino:</label>
+                <select id="destino" name="destino">
+                    <option value="destino1">Disney</option>
+                    <option value="destino2">Europa</option>
+                </select>
+            </fieldset>
 
-      <fieldset class="form_destino">
-          <legend>Destino</legend>
-          <label for="destino">Selecciona un destino:</label>
-          <select id="destino" name="destino">
-              <option value="destino1">Disney</option>
-              <option value="destino2">Europa</option>
-              <!-- <option value="destino3">Destino 3</option> -->
-          </select>
-      </fieldset>
-      
+            <fieldset class="form_mensaje">
+                <legend>Mensaje</legend>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuentanos en qué podemos ayudarte..." required></textarea>
+            </fieldset>
+            <br>
 
-      <fieldset class="form_mensaje">
-          <legend>Mensaje</legend>
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-      </fieldset>
-      <br>
-
-      <div id="btn_form_container"><input type="submit" value="Enviar" class="form_boton_enviar"></div>
-  </form>
-  </article>
-  </main>
+            <div id="btn_form_container"><input type="submit" value="Enviar" class="form_boton_enviar"></div>
+        </form>
+    </article>  </main>
 
     <script src="js/script.js"></script>
   </body>
