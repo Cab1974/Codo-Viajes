@@ -1,7 +1,77 @@
+/*INICIO BASE*/
+:root {
+  --color-1: #F8F0E5;
+  --color-2: #EADBC8;
+  --color-3: #DAC0A3;
+  --color-3-5: #dac0a385;
+  --color-4: #102C57;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+  }
+  html{
+    font-size: 16px;
+  }
+
+/*FIN BASE*/
+
 /* INICIO QUE SOMOS */
 
+#article_nosotros{
+  box-sizing: border-box;
+}
 
+.article_nosotros {
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  margin-top: .5rem;
+  box-sizing: content-box;
+}
 
+#nosotros_h2_container  {
+    width: 50%;
+    display: flex;
+    background: url('../img/img-art-2.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #nosotros_h2_container > h2{
+    font-size: 3vw;
+    text-align: center;
+    color: var(--color-4);
+    background-color: var(--color-3-5);
+    padding: 1rem;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+  }
+
+   #nosotros_p_container {
+    width: 50%;
+    display: flex;
+    padding: 20px;
+    background: var(--color-2);
+    justify-content: center;
+    align-items: center;
+  }
+
+  #nosotros_p_container > p{
+    color: var(--color-4);
+    font-size: 1.2vw;
+    
+  }
 
 
 /* FIN QUE SOMOS */
