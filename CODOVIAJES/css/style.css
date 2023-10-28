@@ -65,6 +65,10 @@
 
 /* --- MAIN CONTENT --- */
 
+#link_index:hover{
+  background-color: var(--color-3-5);
+}
+
 /* --- TITULO PRINCIPAL --- */
 #h1_index{
   display: flex;
