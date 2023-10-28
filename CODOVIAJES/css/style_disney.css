@@ -1,18 +1,87 @@
-.info_disney{
-background-color: var(--color-2); 
-}
+/* Paquete */
+
+/* mapa */
+
 
 #link_hotel:hover{
     background-color: var(--color-3-5);
   }
 
-
-.foto_disney{
-    max-width: 100px;
-    background-color: var(--color-1);
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
+  .article_disney {
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    margin-top: .7rem;
   }
+  
+/* Magic Kingdom */
+
+  #article_magickingdom{
+    justify-items: center;
+    /* align-items: center; */
+  }
+  
+  #article_magickingdom > h2 {
+    width: 50%;
+    background: url("../img/disney/Magic-Kingdom.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    color: var(--color-4);
+  }
+  
+  #article_magickingdom > p {
+    width: 50%;
+    padding: 20px;
+    background: var(--color-2); 
+    color: var(--color-4); 
+  }
+  
+  /* Hollywood Studio */
+  
+  
+  #article_disney{
+    justify-items: center;
+    /* align-items: center; */
+  }
+  
+  #article_disney > h2 {
+    width: 50%;
+    background: url('../img/disney.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    color: var(--color-4);
+  }
+  
+  #article_disney > p {
+    width: 50%;
+    padding: 20px;
+    background: var(--color-1); 
+    color: var(--color-4);
+  }
+
+/* Epcot */
+
+  #article_europa{
+    justify-items: center;
+    /* align-items: center; */
+  }
+  
+  #article_europa > h2 {
+    width: 50%;
+    background: url('../img/europa.jpeg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    color: var(--color-4);
+  }
+  
+  #article_europa > p {
+    width: 50%;
+    padding: 20px;
+    background: var(--color-2); 
+    color: var(--color-4);
+  }
+  
+  /* Animal Kingdom */
+
+
+  /* Disney Spring */
