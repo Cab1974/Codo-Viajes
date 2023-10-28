@@ -36,7 +36,17 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+    transition: all 0.3s ease 0.1s;
+    -webkit-transition: all 0.3s ease 0.1s;
+    -moz-transition: all 0.3s ease 0.1s;
+    -ms-transition: all 0.3s ease 0.1s;
+    -o-transition: all 0.3s ease 0.1s;
 }
+
+  .codo-logo img:hover{
+    max-width: 110px;
+    background-color: var(--color-3-5);
+  }
   
   .navbar-menu ul {
     display: flex;
@@ -356,6 +366,11 @@ textarea {
 .form_boton_enviar:hover {
   background-color: var(--color-3);
   color: var(--color-4);
+}
+
+.error-message {
+  color: #811010;
+  display: none;
 }
 
 /* FOOTER */
