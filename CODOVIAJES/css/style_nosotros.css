@@ -286,22 +286,31 @@ footer{
 /*ABOUTUS*/
 
 
-#nosotros_h2_container {
+#QueSomos_h2_container,
+#Vision_h2_container,
+#Valores_h2_container {
   width: 100%;
   height: 34vh;
 }
 
-#nosotros_h2_container > h2{
+#QueSomos_h2_container > h2,
+#Vision_h2_container > h2,
+#Valores_h2_container > h2{
   font-size: 3rem;
 }
-#nosotros_p_container {
+
+#QueSomos_p_container,
+#Vision_p_container,
+#Valores_p_container {
   width: 100%;
   height: 34vh;
 }
 
-#nosotros_p_container > p{
+#QueSomos_p_container > p,
+#Vision_p_container > p,
+#Valores_p_container > p{
   color: var(--color-4);
-  font-size: 1.1rem;
+  font-size: 1rem;
   
 }
 
@@ -376,4 +385,12 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  #QueSomos_p_container > p,
+  #Vision_p_container > p,
+  #Valores_p_container > p{
+  color: var(--color-4);
+  font-size: .8rem;
+  
+}
   }
