@@ -47,7 +47,7 @@ body{
   justify-content: center;
   align-items: center;
   height: 40vh;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/disney/mickey-minnie.avif');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/disney/parque.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,11 +68,11 @@ body{
 
 #paquete_container{
   display: flex;
-  height: 30vh;
+  height: 40vh;
   justify-content: space-between;
   align-items: center;
   border: 1px solid var(--color-4);
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
 }
 
 #paquete_img_container{
@@ -114,7 +114,7 @@ body{
 #paquete_txt_container{
   display: flex;
   color: var(--color-4);
-  font-size: 1.6vw;
+  font-size: 1.rem;
   justify-content: center;
   align-items: center;
   padding-left: 1vw;
@@ -125,8 +125,8 @@ body{
 
 #magic_container{
   display: flex;
-  height: 30vh;
-  justify-content: space-between;
+  height: 40vh;
+  justify-content: flex-start;
   align-items: center;
   border: 1px solid var(--color-4);
   margin-bottom: 2vh;
@@ -171,7 +171,7 @@ body{
 #magic_txt_container{
   display: flex;
   color: var(--color-4);
-  font-size: 1.6vw;
+  font-size: 1.3rem;
   justify-content: center;
   align-items: center;
   padding-left: 1vw;
@@ -181,8 +181,8 @@ body{
 
 #hollywood_container{
   display: flex;
-  height: 30vh;
-  justify-content: space-between;
+  height: 40vh;
+  justify-content: flex-start;
   align-items: center;
   border: 1px solid var(--color-4);
   margin-bottom: 2vh;
@@ -229,7 +229,7 @@ body{
 #hollywood_txt_container{
   display: flex;
   color: var(--color-4);
-  font-size: 1.6vw;
+  font-size: 1.3rem;
   justify-content: center;
   align-items: center;
   padding-left: 1vw;
@@ -239,8 +239,8 @@ body{
 
 #epcot_container{
   display: flex;
-  height: 30vh;
-  justify-content: space-between;
+  height: 40vh;
+  justify-content: flex-start;
   align-items: center;
   border: 1px solid var(--color-4);
   margin-bottom: 2vh;
@@ -285,7 +285,7 @@ body{
 #epcot_txt_container{
   display: flex;
   color: var(--color-4);
-  font-size: 1.6vw;
+  font-size: 1.3rem;
   justify-content: center;
   align-items: center;
   padding-left: 1vw;
@@ -295,8 +295,8 @@ body{
 
 #animal_container{
   display: flex;
-  height: 30vh;
-  justify-content: space-between;
+  height: 40vh;
+  justify-content: flex-start;
   align-items: center;
   border: 1px solid var(--color-4);
   margin-bottom: 2vh;
@@ -342,7 +342,7 @@ body{
 #animal_txt_container{
   display: flex;
   color: var(--color-4);
-  font-size: 1.6vw;
+  font-size: 1.3rem;
   justify-content: center;
   align-items: center;
   padding-left: 1vw;
@@ -352,8 +352,8 @@ body{
 
 #spring_container{
   display: flex;
-  height: 30vh;
-  justify-content: space-between;
+  height: 40vh;
+  justify-content: flex-start;
   align-items: center;
   border: 1px solid var(--color-4);
   margin-bottom: 2vh;
@@ -399,7 +399,7 @@ body{
 #spring_txt_container{
   display: flex;
   color: var(--color-4);
-  font-size: 1.6vw;
+  font-size: 1.3rem;
   justify-content: center;
   align-items: center;
   padding-left: 1vw;
