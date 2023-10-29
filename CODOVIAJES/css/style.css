@@ -17,7 +17,15 @@
   html{
     font-size: 16px;
   }
+
+  /* GENERALES */
   
+  .article{
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+  }
+
   /* NAVBAR */
   .navbar {
     background-color: var(--color-4);
