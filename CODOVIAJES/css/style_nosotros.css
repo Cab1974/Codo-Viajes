@@ -36,6 +36,22 @@
   box-sizing: content-box;
 }
 
+.article_nosotros_fin {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  margin-top: .5rem;
+  padding: 1rem;
+  box-sizing: content-box; 
+  text-align: center;
+  justify-content: center;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem; 
+}
+
 #QueSomos_h2_container  {
     width: 50%;
     display: flex;
@@ -46,20 +62,20 @@
     align-items: center;
   }
 
-  #QueSomos_h2_container > h2{
-    font-size: 3vw;
-    text-align: center;
-    color: var(--color-4);
-    background-color: var(--color-3-5);
-    padding: 1rem;
-    border-radius: 3rem;
-    -webkit-border-radius: 3rem;
-    -moz-border-radius: 3rem;
-    -ms-border-radius: 3rem;
-    -o-border-radius: 3rem;
-  }
+#QueSomos_h2_container > h2{
+  font-size: 3vw;
+  text-align: center;
+  color: var(--color-4);
+  background-color: var(--color-3-5);
+  padding: 1rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;  
+  }  
 
-   #QueSomos_p_container {
+  #QueSomos_p_container {
     width: 50%;
     display: flex;
     padding: 1vw;
@@ -76,6 +92,113 @@
 
 
 /* FIN QUE SOMOS? */
+
+
+
+/* INICIO VISION */
+
+#Vision_h2_container  {
+  width: 50%;
+  display: flex;
+  background: url('../img/img-art-2.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#Vision_h2_container > h2{
+  font-size: 3vw;
+  text-align: center;
+  color: var(--color-4);
+  background-color: var(--color-3-5);
+  padding: 1rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+ #Vision_p_container {
+  width: 50%;
+  display: flex;
+  padding: 1vw;
+  background: var(--color-2);
+  justify-content: center;
+  align-items: center;
+}
+
+#Vision_p_container > p{
+  color: var(--color-4);
+  font-size: 1.2vw;
+  
+}
+
+
+/* FIN VISION */
+
+/*INICIO VALORES*/
+
+#Valores_h2_container  {
+  width: 50%;
+  display: flex;
+  background: url('../img/img-art-2.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#Valores_h2_container > h2{
+  font-size: 3vw;
+  text-align: center;
+  color: var(--color-4);
+  background-color: var(--color-3-5);
+  padding: 1rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+ #Valores_p_container {
+  width: 50%;
+  display: flex;
+  padding: 1vw;
+  background: var(--color-2);
+  justify-content: center;
+  align-items: center;
+}
+
+#Valores_p_container > p{
+  color: var(--color-4);
+  font-size: 1.2vw;
+}
+
+.lista_valores > li {
+  margin-left: 5vw;
+  list-style: circle;
+  list-style-type: disc;
+}
+
+
+/*FIN VALORES*/
+
+/* FOOTER */
+
+footer{
+  background-color: var(--color-4);
+  height: 6rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: var(--color-2);
+}
+
+.derechos{
+  padding-top: 1rem;
+}
 
 /* Media query 800px */
 @media (max-width: 800px) {
