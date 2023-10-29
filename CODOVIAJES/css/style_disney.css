@@ -47,7 +47,7 @@ body{
   justify-content: center;
   align-items: center;
   height: 40vh;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/europanoramic.jpg');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/disney.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -66,6 +66,59 @@ body{
 
 /* Paquete */
 
+#paquete_container{
+  display: flex;
+  height: 30vh;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--color-4);
+  margin-bottom: 2vh;
+}
+
+#paquete_img_container{
+  min-width: 50%;
+  height: 100%;
+  display: flex;
+  background: url('../img/disney/mickey.jpg') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#paquete_img_container > h2{
+  font-size: 3vw;
+  color: var(--color-4);
+  background-color: var(--color-3-5);
+  padding: 1vw;
+  border: solid 1px var(--color-4);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all .3s ease .03s;
+  -webkit-transition: all .3s ease .03s;
+  -moz-transition: all .3s ease .03s;
+  -ms-transition: all .3s ease .03s;
+  -o-transition: all .3s ease .03s;
+  cursor: pointer;
+}
+
+#magic_img_container > h2:hover{
+  background-color: var(--color-3);
+  padding: 2rem;
+}
+
+#paquete_txt_container{
+  display: flex;
+  color: var(--color-4);
+  font-size: 1.6vw;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1vw;
+}
 
 
 /* Magic Kingdom */
@@ -95,7 +148,7 @@ body{
   font-size: 3vw;
   color: var(--color-4);
   background-color: var(--color-3-5);
-  padding: 1vw;
+  padding: 2vw;
   border: solid 1px var(--color-4);
   border-radius: 10px;
   -webkit-border-radius: 10px;
