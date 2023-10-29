@@ -47,7 +47,7 @@ body{
   justify-content: center;
   align-items: center;
   height: 40vh;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/disney.jpg');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/disney/mickey-minnie.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@ body{
   min-width: 50%;
   height: 100%;
   display: flex;
-  background: url('../img/disney/mickey.jpg') no-repeat center center;
+  background: url('../img/disney/parque.jpg') no-repeat center center;
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -106,7 +106,7 @@ body{
   cursor: pointer;
 }
 
-#magic_img_container > h2:hover{
+#paquete_img_container > h2:hover{
   background-color: var(--color-3);
   padding: 2rem;
 }
@@ -364,7 +364,7 @@ body{
   min-width: 50%;
   height: 100%;
   display: flex;
-  background: url('../img/disney/images.jpg') no-repeat center center;
+  background: url('../img/disney/disney-springs.jpg.webp') no-repeat center center;
   background-size: cover;
   background-position: center;
   padding: 20px;
