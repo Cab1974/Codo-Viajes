@@ -36,21 +36,61 @@
   box-sizing: content-box;
 }
 
+#article_nosotros_fin {
+  box-sizing: border-box;
+}
+
 .article_nosotros_fin {
   display: flex;
   width: 100vw;
-  height: 10vh;
+  height: 20vh;
   margin-top: .5rem;
-  padding: 1rem;
-  box-sizing: content-box; 
-  text-align: center;
+  box-sizing: content-box;
+  background-color: var(--color-2);
+}
+
+#fin_h2_container  {
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  padding: 20px;
   justify-content: center;
+  align-items: center;
+}
+
+#fin_h2_container > h2{
+  font-size: 3vw;
+  text-align: center;
+  color: var(--color-4);
+  background-color: var(--color-3-5);
+  padding: 1rem;
   border-radius: 3rem;
   -webkit-border-radius: 3rem;
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
-  -o-border-radius: 3rem; 
-}
+  -o-border-radius: 3rem;  
+  } 
+
+  #fin_h2_container_unico{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-1);
+  }
+
+  #fin_h2_container_unico > h2{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-4);
+    font-size: 5vw;
+  }
 
 #QueSomos_h2_container  {
     width: 50%;
